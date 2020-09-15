@@ -266,7 +266,7 @@ h1 {
   background: #fff;
   color: #18d26e;
 }
-
+.ignore-css{all:unset;}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -1203,20 +1203,20 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
-#team .member .social {
+#team .member  {
   margin-top: 15px;
 }
 
-#team .member .social a {
+#team .member  a {
   transition: none;
   color: #fff;
 }
 
-#team .member .social a:hover {
+#team .member a:hover {
   color: #18d26e;
 }
 
-#team .member .social i {
+#team .member  i {
   font-size: 18px;
   margin: 0 2px;
 }
@@ -1488,4 +1488,35 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   font-size: 13px;
   color: #ddd;
+}
+
+/* For Social Wrapper */
+.social{
+  background:#000;
+  padding:10px 0;
+}
+.social-wrapper .social-icon a{
+  float:left;
+  font-size:13px;
+  color:#fff;
+}
+.social-wrapper .social-icon a:hover{
+  color:#82ca9c;
+}
+.social-wrapper .social-icon a i{
+  padding-right:10px;
+}
+.social-wrapper .social-contact{
+  float:right;
+  font-size:13px;
+}
+.social-wrapper .social-contact a{
+  color:#fff;
+  margin-right:20px;
+}
+.social-wrapper .social-contact a:hover{
+  color:#82ca9c;
+}
+.social-wrapper .social-contact a i{
+  padding-right:5px;
 }
