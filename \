@@ -159,7 +159,7 @@
                 <div class="icon"><i class="ion-ios-eye-outline"></i></div>
               </div>
               <h2 class="title"><a href="#">Our Vision</a></h2>
-              <p style="text-align: center">
+              <p>
                 To give the most compelling experience possible and thus, help ourselves and your company win
               </p>
             </div>
@@ -172,7 +172,7 @@
                 <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
               </div>
               <h2 class="title"><a href="#">Our Mission</a></h2>
-              <p style="text-align: center">
+              <p style="align-text: center">
                 Achieve excellence, every day and strive to be the best in our field
               </p>
             </br>
