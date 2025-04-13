@@ -1,3 +1,61 @@
+.hero {
+  position: relative;
+  background: url('../img/old-books-436498_1920.jpg') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.hero__overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+.hero__content {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.hero__content h1 {
+  font-family: 'Acme', sans-serif;
+  font-size: 3rem;
+  color: #27c14f;
+  margin-bottom: .5rem;
+}
+.hero__content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.hero__content p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+.hero__features {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+.hero__features li {
+  display: inline-block;
+  margin: 0 .5rem;
+  font-weight: 500;
+}
+.btn--primary {
+  background: #27c14f;
+  color: #fff;
+  padding: .75rem 1.5rem;
+  border-radius: .25rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+.btn--primary:hover {
+  background: #219b3f;
+}
+
 /*
   Theme Name: BizPage
   Theme URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
